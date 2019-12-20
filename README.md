@@ -1,21 +1,11 @@
-# WebGL Assignment 2
+# WebGL Motion Blur
 
-## Requirement: **Motion Blur**
-
-Modify the scene code and the shader to create motion blur. The files that need modification are:
-- `src/scenes/01-MotionBlur.ts`
-- `static/shaders/mrt.vert`
-- `static/shaders/mrt.frag`
-- `static/shaders/postprocess/motion-blur.frag`
-
-You will find one or more **`//TODO:`** comments in each of these files.
-
-![with-motion-blur](examples/with-motion-blur.png)
+## Requirement: **Motion Blur**![with-motion-blur](examples/with-motion-blur.png)
 *With Motion Blur* (the house is moving by the way)
 ![without-motion-blur](examples/without-motion-blur.png)
 *Without Motion Blur*
 
-## HINT
+## HINT how to make the motion blur
 
 The steps to do motion blur is as follows:
 - While rendering the scene to a color render target, we need to render the motion vectors into another render target.
